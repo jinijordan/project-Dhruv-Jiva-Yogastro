@@ -1,6 +1,4 @@
-# project-Dhruv-Jiva-Yogastro
-Harmonizing Astronaut Health in Deep Space Through Biometric Monitoring &amp; Yoga Physiology (NASA Space Apps Challenge 2026)
-
+# 🌌 Project Dhruv 
 > **Harmonizing Astronaut Health in Deep Space Through Biometric Monitoring & Yoga Physiology**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -11,9 +9,9 @@ Harmonizing Astronaut Health in Deep Space Through Biometric Monitoring &amp; Yo
 
 ## 📌 Executive Summary
 
-**Project Dhruv** is an adaptive, data-driven health and mental well-being monitoring system designed for astronauts in isolated, confined, and extreme (ICE) spaceflight environments. 
+**Project Dhruv** is an adaptive, data-driven health and mental well-being monitoring system designed for astronauts in isolated, confined, and extreme (ICE) spaceflight environments.
 
-Named after the North Star (*Dhruv*)—symbolizing unshakeable stability and orientation—our system continuously integrates real-time physiological biometrics (ECG, HRV, GSR) and neurological indicators (EEG spectral band power) to compute a composite **Spaceflight Stress & Balance Index**. 
+Named after the North Star (*Dhruv*)—symbolizing unshakeable stability and orientation—our system continuously integrates real-time physiological biometrics (ECG, HRV, GSR) and neurological indicators (EEG spectral band power) to compute a composite **Spaceflight Stress & Balance Index**.
 
 By marrying open NASA physiological datasets with ancient, scientifically proven yoga practices (*Asana*, *Pranayama*, and *Yoga Nidra*), Dhruv dynamically prescribes personalized physical and psychological micro-interventions to counteract microgravity deconditioning, fluid shift stress, autonomic dysregulation, and cognitive fatigue.
 
@@ -41,3 +39,62 @@ Project Dhruv is built upon peer-reviewed space physiology research and open dat
 ---
 
 ## 🛠 System Architecture
+[ Astronaut Wearables ]
+                     (ECG / HRV / EEG / GSR Sensors)
+                                    │
+                                    ▼
+                     [ Dhruv Analytics Engine ]
+              (Stress Index & Vagal Tone Algorithms)
+                                    │
+                ┌───────────────────┴───────────────────┐
+                ▼                                       ▼
+    [ Cardiovascular / Musculoskeletal ]      [ Neurological & Cognitive ]
+    - Fluid Shift Monitoring                   - Brainwave Spectral Power
+    - Postural Muscle Degradation              - Autonomic Stress Index
+                │                                       │
+                └───────────────────┬───────────────────┘
+                                    ▼
+                     [ Adaptive Intervention Engine ]
+              - Targeted Isometric Asanas & Pranayama
+              - Real-Time EEG Relaxation Visualizer
+
+---
+
+## 🗂 Project Structure
+
+```bash
+Project-Dhruv-Jiva-Yogastro/
+├── docs/                      # Pitch deck, presentation assets, and diagrams
+├── data/                      # Sample/processed NASA LSDA & PhysioNet datasets
+├── analytics/                 # Python scripts for HRV and EEG feature extraction
+│   └── stress_engine.py       # Core Stress Index calculation script
+├── dashboard/                 # Streamlit / React UI source code for astronaut portal
+├── LICENSE                    # MIT Open Source License
+└── README.md                  # Project documentation
+
+
+⚡ Quick Start & Installation
+Prerequisites
+Python 3.9+
+Git
+git clone [https://github.com/jinijordan/project-Dhruv-Jiva-Yogastro.git](https://github.com/jinijordan/project-Dhruv-Jiva-Yogastro.git)
+cd project-Dhruv-Jiva-Yogastro
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run dashboard/app.py
+
+
+
+
+📄 License
+Distributed under the MIT License. See LICENSE for more information.
+
+👥 Team Jiva Yogastro
+Team Lead / System Architect: Jiya
+
+Local Event: Mysuru, Karnataka, India
+
+Challenge: NASA International Space Apps Challenge 2026
+
+              
