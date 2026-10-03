@@ -1,10 +1,9 @@
-# 🌌 Project Dhruv 
+# 🌌 Project Dhruv
 > **Harmonizing Astronaut Health in Deep Space Through Biometric Monitoring & Yoga Physiology**
 
-[!License: MIT(https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[!NASA Space Apps Challenge 2026(https://img.shields.io/badge/NASA%20Space%20Apps-2026-blue.svg)](https://www.spaceappschallenge.org/)
-[!Team(https://img.shields.io/badge/Team-Jiva%20Yogastro-orange.svg)](#team-jiva-yogastro)
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![NASA Space Apps Challenge 2026](https://img.shields.io/badge/NASA%20Space%20Apps-2026-blue.svg)](https://www.spaceappschallenge.org/)
+[![Team](https://img.shields.io/badge/Team-Jiva%20Yogastro-orange.svg)](#team-jiva-yogastro)
 ---
 
 ## 📌 Executive Summary
@@ -36,9 +35,10 @@ Project Dhruv is built upon peer-reviewed space physiology research and open dat
 3. **[PhysioNet MIT-BIH & Sleep Databases](https://physionet.org/):** Multi-parameter electrocardiogram (ECG) and heart rate variability (HRV) metrics under psychological stress.
 4. **OpenBCI / Muse EEG Datasets:** Brainwave spectral density shifts during mindfulness, deep relaxation, and high-cognitive load environments.
 
-```---
+---
 
 ## 🛠 System Architecture
+```text 
                         [ Astronaut Wearables ]
                      (ECG / HRV / EEG / GSR Sensors)
                                     │
@@ -75,11 +75,11 @@ Project-Dhruv-Jiva-Yogastro/
 ```
 
 ## ⚡ Quick Start & Installation
-Prerequisites
-Python 3.9+
-Git
+### Prerequisites
+* Python 3.9+
+* Git
 
-Installation
+### Installation
 1. **Clone the Repository:**
 ```
 git clone https://github.com/jinijordan/project-Dhruv-Jiva-Yogastro.git
@@ -101,10 +101,10 @@ pip install -r requirements.txt
 streamlit run dashboard/app.py
 
 
-``
+
 ## 📄 License
 Distributed under the MIT License. See LICENSE for more information.
-``
+
 
 ## 👥 Team Jiva Yogastro
 Team Lead / System Architect: Jiya
